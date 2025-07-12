@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var Time = DateTime.Now.ToString("hh:mm:ss:tt");
+}
+
+<div class="text-center">
+    <h1 class="display-4">AppsDev_0712</h1>
+    <p>The time is : @Time</p>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<h3>Favorite Fruits</h3>
+<table style="width:90%">
+    <tr>
+        <th>Item No.</th>
+        <th>Fruit</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <th>Mango</th>
+    </tr>
+    <tr>
+        <th>2</th>
+        <th>Dalandan</th>
+    </tr>
+    <tr>
+        <th>3</th>
+        <th>Banana</th>
+    </tr>
+</table><br>
+<form>
+    <label for="subs">Subject</label>
+    <input type="text" id="subs" name="subs" /><br />
+
+    <label for="street">Street</label><br />
+
+    <label for="street1">pandi angat rd</label>
+    <input type="checkbox" id="street" name="street" /><br />
+    <label for="street1">pandi angat rd</label>
+    <input type="checkbox" id="street" name="street" /><br />
+    <label for="street1">pandi angat rd</label>
+    <input type="checkbox" id="street" name="street" /><br />
+
+    <label>Commnent</label>
+    <textarea rows="4" cols="50" placeholder="Comment"></textarea><br />
+
+
+    <label>Favorite Songs</label>
+    <ul>
+        <li>Imagine Dragons - Demons</li>
+        <li>Imagine Dragons - Radio Active</li>
+        <li>Imagine Dragons - Bad Liar</li>
+    </ul>
+</form>
