@@ -4,7 +4,7 @@ html {
 
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -19,4 +19,21 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+.privacy p{
+    font-size: 20pt;
+    color: darkblue;
+}
+form{
+    font-family: "Helvetica Neue",Heltica, Arial, sans-serif;
+    font-size: 20pt;
+}
+form label{
+    color: darkblue;
+}
+form input[type="text"]{
+    color: blue;
+}
+form ul li {
+    color: lightblue;
 }
